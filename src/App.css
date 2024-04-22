@@ -1,0 +1,104 @@
+/* ========= CUSTOM FONTS ============ */
+@font-face {
+  font-family: Alexandria;
+  src: url(/public/Fonts/Alexandria-Black.ttf);
+  font-weight: 900;
+
+}
+@font-face {
+  font-family: Alexandria;
+  src: url(/public/Fonts/Alexandria-Bold.ttf);
+  font-weight: bold;
+
+}
+@font-face {
+  font-family: Alexandria;
+  src: url(/public/Fonts/Alexandria-Light.ttf);
+  font-weight: 200;
+
+}
+@font-face {
+  font-family: Alexandria;
+  src: url(/public/Fonts/Alexandria-Medium.ttf);
+  font-weight: 900;
+
+}
+/* ========= //CUSTOM FONTS// ============ */
+
+*{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.iconBtn{
+
+  transition: all 0.3s !important  ;
+}
+.iconBtn:hover{
+  background-color: #c5c5cc !important ;
+  box-shadow: 0px 7px 7px rgb(0, 0, 0,0.4);
+}
+.cordBox{
+  transition: all 0.5s !important  ;
+
+}
+.cordBox:hover{
+padding: 10px 0;
+
+}
+
+.boxTodos{
+  min-height: 100px;
+  max-height: 600px;
+  margin-top: 20px;
+  overflow-y:scroll;
+}
+
+.Copyright{
+  text-align: center;
+  color: white;
+
+
+  font-size: 13px;
+
+}
+.nameDev{
+  color: rgb(165, 165, 231);
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.nameDev:hover{
+  cursor: pointer;
+  opacity: 0.9;
+  color: rgb(167, 167, 243);
+
+}
+@media(max-width:550px){
+  .iconBtn{
+  width: 45px;
+  height: 45px;
+  margin-left: 15px;
+  }
+  
+}
+@media(max-width:450px){
+  .iconBtn{
+  width: 40px;
+  height: 40px;
+  margin-left: 25px;
+  }
+  
+}
+@media(max-width:420px){
+  .iconBtn{
+  width: 35px;
+  height: 35px;
+  margin-left: 30px;
+  }
+  
+}
